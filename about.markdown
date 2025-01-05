@@ -1,14 +1,13 @@
 ---
-name: ShopSmart
+app: Shop Smart
 email: allothar@gmail.com
-layout: about
+layout: page
 ---
-Privacy Policy for **Shop Smart**
+Privacy Policy for **{{ page.app }}**
 
 Effective Date: [December 25, 2024]
-{{ site.data.common.name }}
 
-**Shop Smart** (together with our affiliates, “Shop Smart”, “we”, “our” or “us”) respect your privacy and are strongly committed to keeping secure any information we obtain from you or about you. This Privacy Policy describes our practices with respect to Personal Information we collect from or about you when you use our website, applications, and services (collectively, “Services”). This Privacy Policy does not apply to content that we process on behalf of customers of our business offerings, such as our API. Our use of that data is governed by our customer agreements covering access to and use of those offerings.
+**{{ page.app }}** (together with our affiliates, “{{ page.app }}”, “we”, “our” or “us”) respect your privacy and are strongly committed to keeping secure any information we obtain from you or about you. This Privacy Policy describes our practices with respect to Personal Information we collect from or about you when you use our website, applications, and services (collectively, “Services”). This Privacy Policy does not apply to content that we process on behalf of customers of our business offerings, such as our API. Our use of that data is governed by our customer agreements covering access to and use of those offerings.
 
 Personal information we collect
 ===============================
@@ -94,9 +93,9 @@ Object to how we process your Personal Information.
 
 Lodge a complaint with your local data protection authority.
 
-You can exercise some of these rights through your **Shop Smart** account. If you are unable to exercise your rights through your account, please submit your request to allothar@gmail.com.
+You can exercise some of these rights through your **{{ page.app }}** account. If you are unable to exercise your rights through your account, please submit your request to {{ page.email }}.
 
-**A note about accuracy**: Services like ChatGPT generate responses by reading a user’s request and, in response, predicting the words most likely to appear next. In some cases, the words most likely to appear next may not be the most factually accurate. For this reason, you should not rely on the factual accuracy of output from our models. If you notice that ChatGPT output contains factually inaccurate information about you and you would like us to correct the inaccuracy, you may submit a correction request to allothar@gmail.com.
+**A note about accuracy**: Services like ChatGPT generate responses by reading a user’s request and, in response, predicting the words most likely to appear next. In some cases, the words most likely to appear next may not be the most factually accurate. For this reason, you should not rely on the factual accuracy of output from our models. If you notice that ChatGPT output contains factually inaccurate information about you and you would like us to correct the inaccuracy, you may submit a correction request to {{ page.email }}.
 
 Additional U.S. state disclosures
 =================================
@@ -138,21 +137,21 @@ The right to be free from discrimination relating to the exercise of any of your
 
 We don’t “sell” Personal Information or “share” Personal Information for cross-contextual behavioral advertising (as those terms are defined under applicable local law). We also don’t process sensitive Personal Information for the purposes of inferring characteristics about a consumer.
 
-Exercising your rights. To the extent applicable under local law, you can exercise privacy rights described in this section by submitting a request to support@shopily.ai.
+Exercising your rights. To the extent applicable under local law, you can exercise privacy rights described in this section by submitting a request to {{ page.email }}.
 
 Verification. In order to protect your Personal Information from unauthorized access, change, or deletion, we may require you to verify your credentials before you can submit a request to know, correct, or delete Personal Information. If you do not have an account with us, or if we suspect fraudulent or malicious activity, we may ask you to provide additional Personal Information and proof of residency for verification. If we cannot verify your identity, we will not be able to honor your request.
 
-Authorized agents. You may also submit a rights request through an authorized agent. If you do so, the agent must present signed written permission to act on your behalf and you may also be required to independently verify your identity and submit proof of your residency with us. Authorized agent requests can be submitted to support@shopily.ai.
+Authorized agents. You may also submit a rights request through an authorized agent. If you do so, the agent must present signed written permission to act on your behalf and you may also be required to independently verify your identity and submit proof of your residency with us. Authorized agent requests can be submitted to {{ page.email }}.
 
-Appeals. Depending on where you live, you may have the right to appeal a decision we make relating to requests to exercise your rights under applicable local law. To appeal a decision, please send your request to support@shopily.ai.
+Appeals. Depending on where you live, you may have the right to appeal a decision we make relating to requests to exercise your rights under applicable local law. To appeal a decision, please send your request to {{ page.email }}.
 
 Children
 ========
-Our Service is not directed to children under the age of 13. **Shop Smart** does not knowingly collect Personal Information from children under the age of 13. If you have reason to believe that a child under the age of 13 has provided Personal Information to **Shop Smart** through the Service, please email us at support@shopily.ai. We will investigate any notification and if appropriate, delete the Personal Information from our systems. If you are 13 or older, but under 18, you must have permission from your parent or guardian to use our Services.
+Our Service is not directed to children under the age of 13. **{{ page.app }}** does not knowingly collect Personal Information from children under the age of 13. If you have reason to believe that a child under the age of 13 has provided Personal Information to **{{ page.app }}** through the Service, please email us at {{ page.email }}. We will investigate any notification and if appropriate, delete the Personal Information from our systems. If you are 13 or older, but under 18, you must have permission from your parent or guardian to use our Services.
 
 Links to other websites
 =======================
-The Service may contain links to other websites not operated or controlled by **Shop Smart**, including social media services (“Third Party Sites”). The information that you share with Third Party Sites will be governed by the specific privacy policies and terms of service of the Third Party Sites and not by this Privacy Policy. By providing these links we do not imply that we endorse or have reviewed these sites. Please contact the Third Party Sites directly for information on their privacy practices and policies.
+The Service may contain links to other websites not operated or controlled by **{{ page.app }}**, including social media services (“Third Party Sites”). The information that you share with Third Party Sites will be governed by the specific privacy policies and terms of service of the Third Party Sites and not by this Privacy Policy. By providing these links we do not imply that we endorse or have reviewed these sites. Please contact the Third Party Sites directly for information on their privacy practices and policies.
 
 Security and retention
 ======================
@@ -176,7 +175,7 @@ Compliance with our legal obligations when we use your Personal Information to c
 
 Data transfers. Where required, we will use appropriate safeguards for transferring Personal Information outside of certain countries. We will only transfer Personal Information pursuant to a legally valid transfer mechanism.
 
-Data protection officer. You can contact our data protection officer at support@shopily.ai in matters related to Personal Information processing.
+Data protection officer. You can contact our data protection officer at {{ page.email }} in matters related to Personal Information processing.
 
 Changes to the privacy policy
 =============================
