@@ -1,16 +1,19 @@
 ---
-app: Shop Smart
-email: allothar@gmail.com
 layout: page
+title: Privacy Policy
+permalink: privacy-policy
+date: 2024-12-25
 ---
-Privacy Policy for **{{ page.app }}**
+# Privacy Policy for **{{ site.extension.name }}**
 
-Effective Date: [December 25, 2024]
+Effective Date: [{{ page.date }}]
 
-**{{ page.app }}** (together with our affiliates, “{{ page.app }}”, “we”, “our” or “us”) respect your privacy and are strongly committed to keeping secure any information we obtain from you or about you. This Privacy Policy describes our practices with respect to Personal Information we collect from or about you when you use our website, applications, and services (collectively, “Services”). This Privacy Policy does not apply to content that we process on behalf of customers of our business offerings, such as our API. Our use of that data is governed by our customer agreements covering access to and use of those offerings.
+**{{ site.extension.name }}** (together with our affiliates, “{{ site.extension.name }}”, “we”, “our” or “us”) respect your privacy and are strongly committed to keeping secure any information we obtain from you or about you. This Privacy Policy describes our practices with respect to Personal Information we collect from or about you when you use our website, applications, and services (collectively, “Services”). This Privacy Policy does not apply to content that we process on behalf of customers of our business offerings, such as our API. Our use of that data is governed by our customer agreements covering access to and use of those offerings.
+
+---
 
 Personal information we collect
-===============================
+-------------------------------
 We collect personal information relating to you (“Personal Information”) as follows:
 
 **Personal information you provide**: We collect Personal Information if you create an account to use our Services or communicate with us as follows:
@@ -37,8 +40,10 @@ Personal information we receive automatically from your use of the Services: Whe
 
 **Analytics**: We may use a variety of online analytics products that use cookies to help us analyze how users use our Services and enhance your experience when you use the Services.
 
+---
+
 How we use personal information
-===============================
+-------------------------------
 We may use Personal Information for the following purposes:
 
 To provide, administer, maintain and/or analyze the Services;
@@ -59,8 +64,10 @@ Aggregated or de-identified information. We may aggregate or de-identify Persona
 
 As noted above, we may use Content you provide us to improve our Services, for example to train the models that power ChatGPT.
 
+---
+
 Disclosure of personal information
-==================================
+----------------------------------
 In certain circumstances we may provide your Personal Information to third parties without further notice to you, unless required by the law:
 
 **Vendors and Service Providers**: To assist us in meeting business operations needs and to perform certain services and functions, we may provide Personal Information to vendors and service providers, including providers of hosting services, customer service vendors, cloud services, email communication software, web analytics services, and other information technology providers, among others. Pursuant to our instructions, these parties will access, process, or store Personal Information only in the course of performing their duties to us.
@@ -73,8 +80,10 @@ In certain circumstances we may provide your Personal Information to third parti
 
 **Demonstrations and Marketing**: We may use anonymized and aggregated data from chatbot conversations for demonstration, case studies, or advertising purposes. This data will not include personal information or details that could identify individual users. By using our Services, you acknowledge and agree to this usage, unless you specifically opt out through the settings provided in our app or by contacting us directly.
 
+---
+
 Your rights
-===========
+-----------
 Depending on location, individuals may have certain statutory rights in relation to their Personal Information. For example, you may have the right to:
 
 Access your Personal Information and information relating to how it is processed.
@@ -93,12 +102,15 @@ Object to how we process your Personal Information.
 
 Lodge a complaint with your local data protection authority.
 
-You can exercise some of these rights through your **{{ page.app }}** account. If you are unable to exercise your rights through your account, please submit your request to {{ page.email }}.
+You can exercise some of these rights through your **{{ site.extension.name }}** account. If you are unable to exercise your rights through your account, please submit your request to {{ site.email }}.
 
-**A note about accuracy**: Services like ChatGPT generate responses by reading a user’s request and, in response, predicting the words most likely to appear next. In some cases, the words most likely to appear next may not be the most factually accurate. For this reason, you should not rely on the factual accuracy of output from our models. If you notice that ChatGPT output contains factually inaccurate information about you and you would like us to correct the inaccuracy, you may submit a correction request to {{ page.email }}.
+**A note about accuracy**: Services like ChatGPT generate responses by reading a user’s request and, in response, predicting the words most likely to appear next. In some cases, the words most likely to appear next may not be the most factually accurate. For this reason, you should not rely on the factual accuracy of output from our models. If you notice that ChatGPT output contains factually inaccurate information about you and you would like us to correct the inaccuracy, you may submit a correction request to {{ site.email }}.
+
+---
 
 Additional U.S. state disclosures
-=================================
+---------------------------------
+
 The following table provides additional information about the categories of Personal Information we collect and how we disclose that information. You can read more about the Personal Information we collect in “Personal information we collect” above, how we use Personal Information in “How we use personal information” above, and how we retain Personal Information in “Security and Retention” below.
 
 Category of Personal Information
@@ -137,30 +149,38 @@ The right to be free from discrimination relating to the exercise of any of your
 
 We don’t “sell” Personal Information or “share” Personal Information for cross-contextual behavioral advertising (as those terms are defined under applicable local law). We also don’t process sensitive Personal Information for the purposes of inferring characteristics about a consumer.
 
-Exercising your rights. To the extent applicable under local law, you can exercise privacy rights described in this section by submitting a request to {{ page.email }}.
+Exercising your rights. To the extent applicable under local law, you can exercise privacy rights described in this section by submitting a request to {{ site.email }}.
 
 Verification. In order to protect your Personal Information from unauthorized access, change, or deletion, we may require you to verify your credentials before you can submit a request to know, correct, or delete Personal Information. If you do not have an account with us, or if we suspect fraudulent or malicious activity, we may ask you to provide additional Personal Information and proof of residency for verification. If we cannot verify your identity, we will not be able to honor your request.
 
-Authorized agents. You may also submit a rights request through an authorized agent. If you do so, the agent must present signed written permission to act on your behalf and you may also be required to independently verify your identity and submit proof of your residency with us. Authorized agent requests can be submitted to {{ page.email }}.
+Authorized agents. You may also submit a rights request through an authorized agent. If you do so, the agent must present signed written permission to act on your behalf and you may also be required to independently verify your identity and submit proof of your residency with us. Authorized agent requests can be submitted to {{ site.email }}.
 
-Appeals. Depending on where you live, you may have the right to appeal a decision we make relating to requests to exercise your rights under applicable local law. To appeal a decision, please send your request to {{ page.email }}.
+Appeals. Depending on where you live, you may have the right to appeal a decision we make relating to requests to exercise your rights under applicable local law. To appeal a decision, please send your request to {{ site.email }}.
+
+---
 
 Children
-========
-Our Service is not directed to children under the age of 13. **{{ page.app }}** does not knowingly collect Personal Information from children under the age of 13. If you have reason to believe that a child under the age of 13 has provided Personal Information to **{{ page.app }}** through the Service, please email us at {{ page.email }}. We will investigate any notification and if appropriate, delete the Personal Information from our systems. If you are 13 or older, but under 18, you must have permission from your parent or guardian to use our Services.
+--------
+Our Service is not directed to children under the age of 13. **{{ site.extension.name }}** does not knowingly collect Personal Information from children under the age of 13. If you have reason to believe that a child under the age of 13 has provided Personal Information to **{{ site.extension.name }}** through the Service, please email us at {{ site.email }}. We will investigate any notification and if appropriate, delete the Personal Information from our systems. If you are 13 or older, but under 18, you must have permission from your parent or guardian to use our Services.
+
+---
 
 Links to other websites
-=======================
-The Service may contain links to other websites not operated or controlled by **{{ page.app }}**, including social media services (“Third Party Sites”). The information that you share with Third Party Sites will be governed by the specific privacy policies and terms of service of the Third Party Sites and not by this Privacy Policy. By providing these links we do not imply that we endorse or have reviewed these sites. Please contact the Third Party Sites directly for information on their privacy practices and policies.
+-----------------------
+The Service may contain links to other websites not operated or controlled by **{{ site.extension.name }}**, including social media services (“Third Party Sites”). The information that you share with Third Party Sites will be governed by the specific privacy policies and terms of service of the Third Party Sites and not by this Privacy Policy. By providing these links we do not imply that we endorse or have reviewed these sites. Please contact the Third Party Sites directly for information on their privacy practices and policies.
+
+---
 
 Security and retention
-======================
+----------------------
 We implement commercially reasonable technical, administrative, and organizational measures to protect Personal Information both online and offline from loss, misuse, and unauthorized access, disclosure, alteration, or destruction. However, no Internet or email transmission is ever fully secure or error free. In particular, email sent to or from us may not be secure. Therefore, you should take special care in deciding what information you send to us via the Service or email. In addition, we are not responsible for circumvention of any privacy settings or security measures contained on the Service, or third-party websites.
 
 We’ll retain your Personal Information for only as long as we need in order to provide our Service to you, or for other legitimate business purposes such as resolving disputes, safety and security reasons, or complying with our legal obligations. How long we retain Personal Information will depend on a number of factors, such as the amount, nature, and sensitivity of the information, the potential risk of harm from unauthorized use or disclosure, our purpose for processing the information, and any legal requirements.
 
+---
+
 International users
-===================
+-------------------
 By using our Service, you understand and acknowledge that your Personal Information will be processed and stored in our facilities and servers in the United States and may be disclosed to our service providers and affiliates in other jurisdictions.
 
 Legal basis for processing. Our legal bases for processing your Personal Information include:
@@ -175,8 +195,10 @@ Compliance with our legal obligations when we use your Personal Information to c
 
 Data transfers. Where required, we will use appropriate safeguards for transferring Personal Information outside of certain countries. We will only transfer Personal Information pursuant to a legally valid transfer mechanism.
 
-Data protection officer. You can contact our data protection officer at {{ page.email }} in matters related to Personal Information processing.
+Data protection officer. You can contact our data protection officer at {{ site.email }} in matters related to Personal Information processing.
+
+---
 
 Changes to the privacy policy
-=============================
+-----------------------------
 We may update this Privacy Policy from time to time. When we do, we will post an updated version on this page, unless another type of notice is required by applicable law.
